@@ -1,0 +1,73 @@
+
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke
+}
+
+body {
+  background-size: cover;
+  background-color: rgb(61, 80, 63);
+}
+
+.caixa-grande{
+  position: absolute;
+  font-size: 16px;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.titulo h1 {
+  font-size: 96px;
+}
+
+.titulo h3 {
+  font-size: 48px;
+  display: inline-block;
+}
+
+.contador {
+  width: 95vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.caixa {
+  width: 200px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+span.numero {
+  background-color: rgba(255, 255, 255, 0.05);
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 4em;
+  border-radius: 10px;
+}
+
+span.texto {
+  font-size: 1em;
+  background-color: whitesmoke;
+  color: black;
+  display: block;
+  width: 80%;
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+  padding: 0.7em 0;
+  font-weight: 600;
+  border-radius: 10px;
+}

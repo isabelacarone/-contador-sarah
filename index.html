@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title> contator </title>
+<body>
+
+    <div class="caixa-grande">
+        <div class="titulo">
+          <h3> contador para </h3>
+          <h1> 1 ano </h1>
+        </div>
+        <div class="contador">
+          <div class="caixa">
+            <span class="numero" id="dias">00</span>
+            <span class="texto"> dias</span>
+          </div>
+          <div class="caixa">
+            <span class="numero" id="horas">00</span>
+            <span class="texto"> horas</span>
+          </div>
+          <div class="caixa">
+            <span class="numero" id="minutos">00</span>
+            <span class="texto"> minutos</span>
+          </div>
+          <div class="caixa">
+            <span class="numero" id="segundos">00</span>
+            <span class="texto"> segundos</span>
+          </div>
+        </div>
+      </div>
+    
+    <!-- 
+         Contador representa o TEMPO TOTAL; a caixa representa o item principal que guarda os demais. 
+         class "numero" é padronizada - para facilitar o tarabalho em relação aos números - 
+         a id é única para cada unidade de tempo. a class "x" representa o texto = número do tempo atual.
+     -->
+
+     <p id="next"></p>
+    </section>
+    <script src="index.js"> </script>
+</body>
+</html>
